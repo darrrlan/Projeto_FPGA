@@ -1,0 +1,137 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "dsp_op[6]",
+					"strict" : false
+				},
+				{
+					"name" : "dsp_op[5]",
+					"strict" : false
+				},
+				{
+					"name" : "dsp_op[4]",
+					"strict" : false
+				},
+				{
+					"name" : "dsp_op[3]",
+					"strict" : false
+				},
+				{
+					"name" : "dsp_op[2]",
+					"strict" : false
+				},
+				{
+					"name" : "dsp_op[1]",
+					"strict" : false
+				},
+				{
+					"name" : "dsp_op[0]",
+					"strict" : false
+				},
+				{
+					"name" : "dsp_out[6]",
+					"strict" : false
+				},
+				{
+					"name" : "dsp_out[5]",
+					"strict" : false
+				},
+				{
+					"name" : "dsp_out[4]",
+					"strict" : false
+				},
+				{
+					"name" : "dsp_out[3]",
+					"strict" : false
+				},
+				{
+					"name" : "dsp_out[2]",
+					"strict" : false
+				},
+				{
+					"name" : "dsp_out[1]",
+					"strict" : false
+				},
+				{
+					"name" : "dsp_out[0]",
+					"strict" : false
+				},
+				{
+					"name" : "dsp_out2[6]",
+					"strict" : false
+				},
+				{
+					"name" : "dsp_out2[5]",
+					"strict" : false
+				},
+				{
+					"name" : "dsp_out2[4]",
+					"strict" : false
+				},
+				{
+					"name" : "dsp_out2[3]",
+					"strict" : false
+				},
+				{
+					"name" : "dsp_out2[2]",
+					"strict" : false
+				},
+				{
+					"name" : "dsp_out2[1]",
+					"strict" : false
+				},
+				{
+					"name" : "dsp_out2[0]",
+					"strict" : false
+				},
+				{
+					"name" : "dsp_signal",
+					"strict" : false
+				},
+				{
+					"name" : "btn_op",
+					"strict" : false
+				},
+				{
+					"name" : "input2[0]",
+					"strict" : false
+				},
+				{
+					"name" : "input1[0]",
+					"strict" : false
+				},
+				{
+					"name" : "input2[1]",
+					"strict" : false
+				},
+				{
+					"name" : "input1[1]",
+					"strict" : false
+				},
+				{
+					"name" : "input2[2]",
+					"strict" : false
+				},
+				{
+					"name" : "input1[2]",
+					"strict" : false
+				},
+				{
+					"name" : "input2[3]",
+					"strict" : false
+				},
+				{
+					"name" : "input1[3]",
+					"strict" : false
+				},
+				{
+					"name" : "btn_out",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,9 @@
+
+State Machine - |projeto|op
+Name op.No op.XOu op.E op.Ou op.Sub op.Sum 
+op.Sum 0 0 0 0 0 0 
+op.Sub 0 0 0 0 1 1 
+op.Ou 0 0 0 1 0 1 
+op.E 0 0 1 0 0 1 
+op.XOu 0 1 0 0 0 1 
+op.No 1 0 0 0 0 1 

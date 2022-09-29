@@ -92,15 +92,23 @@
 					"strict" : false
 				},
 				{
+					"name" : "led_out[3]",
+					"strict" : false
+				},
+				{
+					"name" : "led_out[2]",
+					"strict" : false
+				},
+				{
+					"name" : "led_out[1]",
+					"strict" : false
+				},
+				{
+					"name" : "led_out[0]",
+					"strict" : false
+				},
+				{
 					"name" : "btn_op",
-					"strict" : false
-				},
-				{
-					"name" : "input2[0]",
-					"strict" : false
-				},
-				{
-					"name" : "input1[0]",
 					"strict" : false
 				},
 				{
@@ -125,6 +133,14 @@
 				},
 				{
 					"name" : "input1[3]",
+					"strict" : false
+				},
+				{
+					"name" : "input2[0]",
+					"strict" : false
+				},
+				{
+					"name" : "input1[0]",
 					"strict" : false
 				},
 				{

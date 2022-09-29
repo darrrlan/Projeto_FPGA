@@ -70,6 +70,9 @@ begin
 	begin
 	
 	if rising_edge(btn_out) then
+	
+	if op = sum or op = sub then
+	
 	case resultado is
 			when 0 =>
 			dsp_out <= "0000001"; dsp_out2 <= "0000001"; dsp_signal <= '1';
@@ -165,9 +168,26 @@ begin
 			dsp_out <= "0100100"; dsp_out2 <= "1001111"; dsp_signal <= '0';
 							
 			when others => 
-			dsp_out <= "1111111"; dsp_out2 <= "1111111";
+			dsp_out <= "1111111"; dsp_out2 <= "1111111"; dsp_signal <= '0';
 			
 			end case;
+		
+		
+		else
+		dsp_out <= "1111111"; dsp_out2 <= "1111111"; dsp_signal <= '0';
+		
+		case op is
+		
+		when Ou => led_out <= input1 or input2;
+		when E => led_out <= input1 and input2;
+		when XOu => led_out <= input1 xor input2;
+		when No => led_out <= not input1;
+		
+		when others => dsp_out <= "1111111"; dsp_out2 <= "1111111"; dsp_signal <= '0';
+		
+		end case;
+		
+		end if;
 		
 		end if;
 		
